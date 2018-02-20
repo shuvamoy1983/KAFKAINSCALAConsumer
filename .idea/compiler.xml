@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="All_about_Scala" />
         <module name="Scala_Spark_Proj" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="All_about_Scala" target="1.5" />
       <module name="Scala_Spark_Proj" target="1.5" />
     </bytecodeTargetLevel>
   </component>
