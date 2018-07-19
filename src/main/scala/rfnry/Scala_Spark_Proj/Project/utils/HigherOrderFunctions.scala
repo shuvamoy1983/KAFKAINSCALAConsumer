@@ -14,7 +14,9 @@ object HigherOrderFunctions {
   val logBuilder = new StringBuilder()
 
   LOG.info("implementation of Higher order function")
-  logBuilder.append("Review how to define function with curried parameter groups")
+  logBuilder.append("Review how to define function with curried parameter groups " +
+    "Currying is the technique of transforming a function with multiple arguments into a function with just one argument. ")
+
   def totalCost(donutType: String)(quantity: Int)(discount: Double): Double = {
     println(s"Calculating total cost for $quantity $donutType with ${discount * 100}% discount")
     val totalCost = 2.50 * quantity
